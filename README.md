@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+🎮 Flip n Match
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive memory card game built with React + TypeScript, where players flip cards to find matching pairs. Designed with a clean UI, responsive layout, and engaging gameplay experience.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Flip and match card mechanics 🃏
 
-## Expanding the ESLint configuration
+Tracks moves and score
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Responsive design for desktop and mobile
 
-- Configure the top-level `parserOptions` property like this:
+Restart game functionality
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Smooth animations and transitions
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Built with React, TypeScript, and modern CSS
+
+🛠️ Tech Stack
+
+Frontend: React, TypeScript
+
+Styling: CSS
+
+Build Tool: Vite / Create React App
+
+📸 Preview
+
+<img width="1632" height="912" alt="image" src="https://github.com/user-attachments/assets/db224edf-e3eb-4d03-a48b-9962b163389d" />
+
+🎯 Future Improvements
+
+Add difficulty levels
+
+Track high scores
+
+Add timer-based challenges
+
+Sound effects and themes
+
+🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
