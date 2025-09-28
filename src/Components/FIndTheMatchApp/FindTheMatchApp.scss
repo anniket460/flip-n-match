@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Rocher";
+  src: url("../../assets//rocherFonts/RocherColorGX.woff2");
+}
+
+@font-palette-values --Purples {
+  font-family: Rocher;
+  base-palette: 7;
+}
+
+@font-palette-values --Grays {
+  font-family: Rocher;
+  base-palette: 8;
+}
+
+.find-the-match-title {
+  position: absolute;
+  top: 1%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  width: 1366px;
+  font-family: "Rocher";
+  text-align: center;
+  font-size: 64px;
+  font-palette: --Purples;
+}
+
+@keyframes bounceImage {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.find-the-match-app {
+  display: flex;
+  position: relative;
+  width: 1366px;
+  height: 768px;
+  background-image: url("../../assets/theme.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+
+  .player1-container,
+  .player2-container {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .player1-container {
+    background-image: url("../../assets/wooden_board_left.png");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    margin-top: -30px;
+    h1 {
+      font-family: "Rocher";
+      margin-top: 180px;
+      margin-left: 32px;
+      font-palette: --Grays;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 300px;
+      animation: bounceImage 2s ease 2;
+      animation-delay: 1.5s;
+    }
+  }
+
+  .player2-container {
+    background-image: url("../../assets/wooden_board_right.png");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    margin-top: -30px;
+    margin-left: -50px;
+
+    h1 {
+      font-family: "Rocher";
+      margin-top: 180px;
+      margin-left: 50px;
+      font-palette: --Grays;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      margin-left: 50px;
+      position: absolute;
+      top: 300px;
+      animation: bounceImage 2s ease 2;
+      animation-delay: 1.5s;
+    }
+  }
+
+  .find-the-match-maze {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    background-image: url("../../assets/board.png");
+    background-repeat: no-repeat;
+    background-size: 82%;
+    background-position: bottom center;
+  }
+}

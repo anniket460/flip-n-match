@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Rocher";
+  src: url("../../assets//rocherFonts/RocherColorGX.woff2");
+}
+
+@font-palette-values --Purples {
+  font-family: Rocher;
+  base-palette: 7;
+}
+
+@font-palette-values --Grays {
+  font-family: Rocher;
+  base-palette: 2;
+}
+
+.start-screen-bg {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/theme.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  .wooden-board-bg {
+    width: 70%;
+    height: 90%;
+    background-image: url(/src/assets/title_board.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .game-title {
+      font-family: "Rocher";
+      text-align: center;
+      font-palette: --Grays;
+      font-size: 108px;
+      max-width: 500px;
+      height: 210px;
+      margin-top: 0px;
+      margin-bottom: 50px;
+    }
+
+    .play-button {
+      background-image: url("../../assets/replay_icon.png");
+      background-size: cover;
+      cursor: pointer;
+      width: 100px;
+      height: 100px;
+      margin-bottom: 20px;
+    }
+  }
+}
