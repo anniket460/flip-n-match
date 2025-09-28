@@ -4,15 +4,15 @@ A fun and interactive memory card game built with React + TypeScript, where play
 
 🚀 Features
 
-Flip and match card mechanics 🃏
+1. Flip and match card mechanics 🃏
 
-Tracks moves and score
+2. Tracks moves and score
 
-Responsive design for desktop and mobile
+3. Responsive design for desktop and mobile
 
-Restart game functionality
+4. Restart game functionality
 
-Smooth animations and transitions
+5. Smooth animations and transitions
 
 Built with React, TypeScript, and modern CSS
 
@@ -30,13 +30,13 @@ Build Tool: Vite / Create React App
 
 🎯 Future Improvements
 
-Add difficulty levels
+1. Add difficulty levels
 
-Track high scores
+2. Track high scores
 
-Add timer-based challenges
+3. Add timer-based challenges
 
-Sound effects and themes
+4. Sound effects and themes
 
 🤝 Contributing
 
